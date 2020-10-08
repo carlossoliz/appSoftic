@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.marketingtotal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->[:react-native-maps] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+13-->[:react-native-maps] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required to access Google Play Licensing -->
+14-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+14-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+15-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-73
+15-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-70
+16    <!--
+17         Required to keep CPU alive while downloading files
+18        (NOT to keep screen awake)
+19    -->
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:5-68
+20-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:22-65
+21    <!--
+22         Required to poll the state of the network connection
+23        and respond to changes
+24    -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
+25-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-79
+25-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:22-76
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-76
+26-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:22-73
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/3fa39fdbce6b1fdb6fb42a1e886ded3c/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/3fa39fdbce6b1fdb6fb42a1e886ded3c/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/3fa39fdbce6b1fdb6fb42a1e886ded3c/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+31
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.android.installreferrer:installreferrer:1.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/ec72a831d5af97bb070e8cb1fe05fd7b/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+32-->[com.android.installreferrer:installreferrer:1.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/ec72a831d5af97bb070e8cb1fe05fd7b/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+33
+34    <application
+34-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:6:5-30:19
+35        android:name="com.marketingtotal.MainApplication"
+35-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:7:7-38
+36        android:allowBackup="false"
+36-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:11:7-34
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.1.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/6acdfb42d09274ab522a09d2effe077a/core-1.1.0/AndroidManifest.xml:24:18-86
+38        android:icon="@mipmap/ic_launcher"
+38-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:9:7-41
+39        android:label="@string/app_name"
+39-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:8:7-39
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:10:7-52
+41        android:supportsRtl="true"
+41-->[com.facebook.android:facebook-login:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/31a5cc069d145aa4a982ba54c7668f26/jetified-facebook-login-5.15.3/AndroidManifest.xml:28:18-44
+42        android:theme="@style/AppTheme"
+42-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:12:7-38
+43        android:usesCleartextTraffic="true" >
+43-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:13:7-42
+44        <meta-data
+44-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:14:7-105
+45            android:name="com.facebook.sdk.ApplicationId"
+45-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:14:18-63
+46            android:value="@string/facebook_app_id" />
+46-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:14:64-103
+47
+48        <activity
+48-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:16:7-25:18
+49            android:name="com.marketingtotal.MainActivity"
+49-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:17:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+50-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:19:9-79
+51            android:label="@string/app_name"
+51-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:18:9-41
+52            android:windowSoftInputMode="adjustResize" >
+52-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:20:9-51
+53            <intent-filter>
+53-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:21:9-24:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:22:13-65
+54-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:22:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:23:13-73
+56-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:23:23-70
+57            </intent-filter>
+58        </activity>
+59        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+59-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:26:7-84
+59-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:26:17-81
+60
+61        <meta-data
+61-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:27:8-29:66
+62            android:name="com.google.android.geo.API_KEY"
+62-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:28:9-54
+63            android:value="AIzaSyCz2NzWCubTdfy5XRyCHZ07LjV11ZrsJgI" />
+63-->/home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/src/main/AndroidManifest.xml:29:9-64
+64
+65        <provider
+65-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+66            android:name="cl.json.RNShareFileProvider"
+66-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-55
+67            android:authorities="com.marketingtotal.rnshare.fileprovider"
+67-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-72
+68            android:exported="false"
+68-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+69            android:grantUriPermissions="true" >
+69-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+70            <meta-data
+70-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:64
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+72                android:resource="@xml/share_download_paths" />
+72-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-61
+73        </provider>
+74        <provider
+74-->[:react-native-webview] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+75            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+75-->[:react-native-webview] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+76            android:authorities="com.marketingtotal.fileprovider"
+76-->[:react-native-webview] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+77            android:exported="false"
+77-->[:react-native-webview] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+78            android:grantUriPermissions="true" >
+78-->[:react-native-webview] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+79            <meta-data
+79-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:64
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+81                android:resource="@xml/file_provider_paths" />
+81-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-61
+82        </provider>
+83        <provider
+83-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-44:20
+84            android:name="com.RNFetchBlob.Utils.FileProvider"
+84-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-62
+85            android:authorities="com.marketingtotal.provider"
+85-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-60
+86            android:exported="false"
+86-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-37
+87            android:grantUriPermissions="true" >
+87-->[:rn-fetch-blob] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-47
+88            <meta-data
+88-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:64
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+90                android:resource="@xml/provider_paths" />
+90-->[:react-native-share] /home/carlos/Escritorio/sw2/MarketingTotalApp/node_modules/react-native-share/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-61
+91        </provider>
+92
+93        <activity
+93-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
+94            android:name="com.facebook.FacebookActivity"
+94-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:31:13-57
+95            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+95-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:32:13-96
+96            android:theme="@style/com_facebook_activity_theme" />
+96-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+97        <activity android:name="com.facebook.CustomTabMainActivity" />
+97-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+97-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+98        <activity
+98-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:35:9-49:20
+99            android:name="com.facebook.CustomTabActivity"
+99-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:36:13-58
+100            android:exported="true" >
+100-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:37:13-36
+101            <intent-filter>
+101-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:17-69
+102-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:17-76
+104-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:27-73
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:17-78
+105-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:27-75
+106
+107                <data
+107-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:45:17-47:50
+108                    android:host="cct.com.marketingtotal"
+108-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:46:21-56
+109                    android:scheme="fbconnect" />
+109-->[com.facebook.android:facebook-common:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/f017987838bb509f08ffe864773a8aa3/jetified-facebook-common-5.15.3/AndroidManifest.xml:47:21-47
+110            </intent-filter>
+111        </activity>
+112        <!--
+113         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+114         with the application context. This config is merged in with the host app's manifest,
+115         but there can only be one provider with the same authority activated at any given
+116         point; so if the end user has two or more different apps that use Facebook SDK, only the
+117         first one will be able to use the provider. To work around this problem, we use the
+118         following placeholder in the authority to identify each host application as if it was
+119         a completely different provider.
+120        -->
+121        <provider
+121-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+122            android:name="com.facebook.internal.FacebookInitProvider"
+122-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+123            android:authorities="com.marketingtotal.FacebookInitProvider"
+123-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+124            android:exported="false" />
+124-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+125
+126        <receiver
+126-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+127            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+127-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+128            android:exported="false" >
+128-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+129            <intent-filter>
+129-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+130                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+130-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+130-->[com.facebook.android:facebook-core:5.15.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/8f25337e2f21a998844a1365a7347494/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+131            </intent-filter>
+132        </receiver>
+133
+134        <activity
+134-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+135            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+135-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+136            android:excludeFromRecents="true"
+136-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+139        <!--
+140            Service handling Google Sign-In user revocation. For apps that do not integrate with
+141            Google Sign-In, this service will never be started.
+142        -->
+143        <service
+143-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+144            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+144-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+145            android:exported="true"
+145-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+146            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+146-->[com.google.android.gms:play-services-auth:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/89e9aef8ee165d913dc8595f78edafaa/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+147        <uses-library
+147-->[com.google.android.gms:play-services-maps:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/3fa39fdbce6b1fdb6fb42a1e886ded3c/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+148            android:name="org.apache.http.legacy"
+148-->[com.google.android.gms:play-services-maps:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/3fa39fdbce6b1fdb6fb42a1e886ded3c/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+149            android:required="false" />
+149-->[com.google.android.gms:play-services-maps:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/3fa39fdbce6b1fdb6fb42a1e886ded3c/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+150
+151        <activity
+151-->[com.google.android.gms:play-services-base:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/9d7b4e4c303e0fefd23cfacb669c9404/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+152-->[com.google.android.gms:play-services-base:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/9d7b4e4c303e0fefd23cfacb669c9404/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-base:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/9d7b4e4c303e0fefd23cfacb669c9404/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-base:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/9d7b4e4c303e0fefd23cfacb669c9404/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/7bd27b1aebf8cd329272bb02d7340d14/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/7bd27b1aebf8cd329272bb02d7340d14/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:17.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/7bd27b1aebf8cd329272bb02d7340d14/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+159    </application>
+160
+161</manifest>

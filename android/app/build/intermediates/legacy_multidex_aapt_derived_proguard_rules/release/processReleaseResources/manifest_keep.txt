@@ -1,0 +1,4 @@
+# Referenced at /home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:34
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/carlos/Escritorio/sw2/MarketingTotalApp/android/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:34
+-keep class com.marketingtotal.MainApplication { <init>(); }
